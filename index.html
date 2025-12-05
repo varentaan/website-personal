@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Muhammad Farhan Octaviano</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-all">
+
+  <!-- Header -->
+  <header class="bg-blue-700 dark:bg-blue-900 text-white text-center py-10 shadow-lg">
+    <h1 class="text-4xl font-bold">Muhammad Farhan Octaviano</h1>
+    <p class="text-xl mt-2">IT Support</p>
+    <button onclick="toggleDarkMode()"
+      class="mt-4 px-5 py-2 bg-gray-800 dark:bg-gray-200 dark:text-black rounded-full shadow hover:scale-105 transition">
+      Toggle Dark Mode
+    </button>
+  </header>
+
+  <main class="p-6 md:p-12 max-w-4xl mx-auto">
+
+    <!-- Profile -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Profil Singkat</h2>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <p>Saya adalah seorang IT Support berpengalaman di bidang Hardware Troubleshooting dalam lingkungan retail. Terampil dalam menangani masalah perangkat keras, perbaikan software, dan troubleshooting jaringan.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Keahlian Utama</h2>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Hardware Troubleshooting (PC, POS, Printer, Scanner)</li>
+          <li>Software Troubleshooting</li>
+          <li>Instalasi & Maintenance Perangkat</li>
+          <li>Basic Networking (LAN, Wi-Fi, TCP/IP)</li>
+          <li>Operating System (Windows & Linux dasar)</li>
+          <li>Remote Support</li>
+          <li>Network Devices Basic Configuration</li>
+          <li>Technical Documentation</li>
+          <li>Customer/Store Support</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Pengalaman Kerja</h2>
+
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h3 class="text-xl font-semibold">IT Support – PT. Indomarco Prismatama</h3>
+        <p class="font-semibold mt-1">2021 – Saat Ini</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li>Pemeliharaan perangkat IT retail.</li>
+          <li>Penanganan software & aplikasi internal.</li>
+          <li>Troubleshooting LAN, Wi-Fi, router & switch.</li>
+          <li>Remote support ke toko.</li>
+        </ul>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h3 class="text-xl font-semibold">IT Support (Magang) – Kominfotik Kepulauan Seribu</h3>
+        <p class="font-semibold mt-1">2018 – 2019</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li>Pemeliharaan komputer & jaringan.</li>
+          <li>Instalasi software & troubleshooting.</li>
+          <li>Pembuatan laporan teknis harian.</li>
+        </ul>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h3 class="text-xl font-semibold">Waitress – Kedai Tempe Mendoan & Tahu Slawi</h3>
+        <p class="font-semibold mt-1">2016 – 2017</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li>Melayani pelanggan & area kerja.</li>
+          <li>Membantu operasional harian.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Pendidikan</h2>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <p class="font-semibold text-lg">Diploma III – Ilmu Komputer</p>
+        <p>Universitas Bina Sarana Informatika (2017 – 2020)</p>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Sertifikasi</h2>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <ul class="list-disc pl-6 space-y-1">
+          <li>CCNA untuk Pemula</li>
+          <li>LBPP LIA: Elementary – High Intermediate</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-2xl font-bold text-blue-700 dark:text-blue-300 mb-3">Kontak</h2>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <p>Email: <a class="text-blue-600 dark:text-blue-400 font-semibold" href="mailto:farhan.octa16@gmail.com">farhan.octa16@gmail.com</a></p>
+        <p>Telepon: 081219085203</p>
+        <p>LinkedIn: <a class="text-blue-600 dark:text-blue-400 font-semibold" href="https://www.linkedin.com/in/farhan-octa-63904a112">linkedin.com/in/farhan-octa-63904a112</a></p>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
